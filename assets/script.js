@@ -17,7 +17,7 @@ $(document).ready(function () {
       var timeNow = moment().hour();
 
       // loops time blocks
-      $(".timeBlock").each(function () {
+      $(".time-block").each(function () {
           var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
           // checks time and adds classes for background color indicators
